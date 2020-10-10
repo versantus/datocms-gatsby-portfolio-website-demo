@@ -82,7 +82,7 @@ const TemplateWrapper = ({ children }) => {
                 ))}
               </p>
               <div className="sidebar__copyright">
-                {data.datoCmsHome.copyright}
+                <em>{data.datoCmsHome.copyright}</em>
               </div>
             </div>
           </div>
